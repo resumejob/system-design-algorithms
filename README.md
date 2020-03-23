@@ -2,6 +2,7 @@
 Algorithm you should know before system design.
 
 - Bloom filter
+- Consistent Hashing 
 - Frugal Streaming
 - Geohash / S2 Geometry
 - Leaky bucket / Token bucket
@@ -17,6 +18,12 @@ Algorithm you should know before system design.
 A Bloom filter is a data structure designed to tell you, rapidly and memory-efficiently, whether an element is present in a set.
 
 - [Build a Web Crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
+
+### Consistent Hashing
+A distributed hashing technique (mapping one piece of data to another) where objects/servers are assigned a position in an abstract circle. This allows easy scaling, independent of the number of servers.
+
+- [Consistent Hashing](https://medium.com/system-design-blog/consistent-hashing-b9134c8a9062)
+- [What is Consistent Hashing and Where is it used?](https://www.youtube.com/watch?v=zaRkONvyGr8)
 
 ### Frugal Streaming
 Frugal Streaming uses only one unit of memory per group to compute a quantile for each group
