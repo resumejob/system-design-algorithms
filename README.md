@@ -1,5 +1,11 @@
 # System design algorithms
-Algorithm you should know before system design.
+#### Algorithm you should know before system design. The related resources should:
+
+1. Can answer a system design question. For instance, [Building a complete Tweet index](https://blog.twitter.com/engineering/en_us/a/2014/building-a-complete-tweet-index.html) can answer "How to implement Twitter search" or "How to implement hashtag in Twitter".
+2. Free to read or watch.
+3. Text would be better than videos.
+
+#### Table of contents
 
 - Bloom filter
 - Frugal Streaming
