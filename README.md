@@ -77,6 +77,11 @@ The rsync algorithm is a technique for reducing the cost of a file transfer by a
 ### Trie algorithm
 Trie is an efficient information reTrieval data structure. Using Trie, search complexities can be brought to optimal limit (key length)
 
+### Elevator algorithm
+The elevator algorithm (also SCAN) is a disk-scheduling algorithm to determine the motion of the disk's arm and head in servicing read and write requests 
+
+- [Elevator Algorithm](https://en.wikipedia.org/wiki/Elevator_algorithm)
+
 - [How to Design an Autocomplete System](https://dzone.com/articles/how-to-design-a-autocomplete-system)
 - [Spell Checkers](https://stackoverflow.com/questions/21366631/how-do-i-use-a-trie-for-spell-checking)
 - [prefix matching words (IP Addresses, Phone Numbers)](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
