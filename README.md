@@ -11,7 +11,7 @@
 - Frugal Streaming
 - Geohash / S2 Geometry
 - Leaky bucket / Token bucket
-- Loosy Counting
+- Lossy Counting
 - Operational transformation
 - Quadtree / Rtree
 - Ray casting
@@ -40,7 +40,7 @@ A mechanism to control the amount and the rate of the traffic sent to the networ
 - [Everything You Need To Know About API Rate Limiting](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/)
 - [How to Design a Scalable Rate Limiting Algorithm](https://konghq.com/blog/how-to-design-a-scalable-rate-limiting-algorithm/)
 
-### Loosy Counting
+### Lossy Counting
 The lossy count algorithm is an algorithm to identify elements in a data stream whose frequency count exceed a user-given threshold.
 
 - [Fast and Reliable Ranking in Datastore](https://cloud.google.com/datastore/docs/articles/fast-and-reliable-ranking-in-datastore)
