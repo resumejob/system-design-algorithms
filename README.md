@@ -66,7 +66,7 @@ Ray casting is the most basic of many computer graphics rendering algorithms tha
 ### Reverse index
 Reverse Index: a reverse index is an index of keywords which stores records of documents that contain the keywords in the list.
 
-- [How search engines work: Crawling, Indexing, Aand Ranking](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
+- [How search engines work: Crawling, Indexing, And Ranking](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
 - [Building a complete Tweet index](https://blog.twitter.com/engineering/en_us/a/2014/building-a-complete-tweet-index.html)
 
 ### Rsync algorithm
