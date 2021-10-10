@@ -1,27 +1,34 @@
 # System design algorithms
 
-#### Other post
-- [Learn system design from tech blogs](https://github.com/resumejob/system-design-in-practice)
+Algorithm you should know for preparing system design interview. For example, Learn Geohash / S2 Geometry algorithm for "How to design Uber like system?"
 
-#### Algorithm you should know before system design. The related resources should:
+#### Sponsor
+[海外兔 - 程序员求职课程，入职不成功不收费](https://osjobs.net/co/)
+
+#### How to contribute
+The algorithm and its resources should:
 
 1. Can answer a system design question. For instance, [Building a complete Tweet index](https://blog.twitter.com/engineering/en_us/a/2014/building-a-complete-tweet-index.html) can answer "How to implement Twitter search" or "How to implement hashtag in Twitter".
 2. Free to read or watch.
 3. Text would be better than videos.
 
+#### Requirements
+- Know when to use ☑️
+- Know how it works ✅
+
 #### Table of contents
 
-- Bloom filter
-- Frugal Streaming
-- Geohash / S2 Geometry
-- Leaky bucket / Token bucket
-- Lossy Counting
-- Operational transformation
-- Quadtree / Rtree
-- Ray casting
-- Reverse index
-- Rsync algorithm
-- Trie algorithm
+- Bloom filter ✅
+- Frugal Streaming ☑️
+- Geohash / S2 Geometry ☑️
+- Leaky bucket / Token bucket ✅
+- Lossy Counting ☑️
+- Operational transformation ☑️
+- Quadtree / Rtree ☑️
+- Ray casting ☑️
+- Reverse index ✅
+- Rsync algorithm ✅
+- Trie algorithm ✅
 
 ### Bloom filter
 A Bloom filter is a data structure designed to tell you, rapidly and memory-efficiently, whether an element is present in a set.
@@ -85,3 +92,4 @@ Trie is an efficient information reTrieval data structure. Using Trie, search co
 - [Spell Checkers](https://stackoverflow.com/questions/21366631/how-do-i-use-a-trie-for-spell-checking)
 - [prefix matching words (IP Addresses, Phone Numbers)](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
 - [Auto-complete feature using Trie](https://www.geeksforgeeks.org/auto-complete-feature-using-trie/)
+
