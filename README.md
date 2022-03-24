@@ -21,6 +21,7 @@ The algorithm and its resources should:
 - Bloom filter ✅
 - Frugal Streaming ☑️
 - Geohash / S2 Geometry ☑️
+- HyperLogLog ✅
 - Leaky bucket / Token bucket ✅
 - Lossy Counting ☑️
 - Operational transformation ☑️
@@ -44,6 +45,11 @@ Frugal Streaming uses only one unit of memory per group to compute a quantile fo
 Geohash can used by 1) dating apps to find romantic matches within a particular cell, and to create chat apps.2) Find nearby locations, and identify places of interest, restaurants, shops and accommodation establishments in an area. 3) Geohashers go on global expeditions to meet people and explore new places.
 
 - [Location-based search results with DynamoDB and Geohash](https://read.acloud.guru/location-based-search-results-with-dynamodb-and-geohash-267727e5d54f)
+
+### HyperLogLog
+HyperLogLog is an algorithm for the count-distinct problem, approximating the number of distinct elements in a multiset.
+
+- [Redis HyperLogLog Explained](https://www.youtube.com/watch?v=MunL8nnwscQ)
 
 ### Leaky bucket / Token bucket
 A mechanism to control the amount and the rate of the traffic sent to the network
