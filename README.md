@@ -3,7 +3,11 @@
 Algorithm you should know for preparing system design interview. For example, Learn Geohash / S2 Geometry algorithm for "How to design Uber like system?"
 
 #### Sponsor
-[海外兔 - 程序员求职课程，入职不成功不收费](https://osjobs.net/co/)
+<h4>
+  <a href="https://osjobs.net/co/">
+    海外兔小班教学帮助你高效准备面试，学员大厂率超过 50%，入职不成功不收费。
+  </a>
+</h4>
 
 #### How to contribute
 The algorithm and its resources should:
