@@ -23,6 +23,7 @@ The algorithm and its resources should:
 #### Table of contents
 
 - Bloom filter ✅
+- Consistent hashing ✅
 - Frugal Streaming ☑️
 - Geohash / S2 Geometry ☑️
 - HyperLogLog ✅
@@ -39,6 +40,11 @@ The algorithm and its resources should:
 A Bloom filter is a data structure designed to tell you, rapidly and memory-efficiently, whether an element is present in a set.
 
 - [Build a Web Crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
+
+### Consistent hashing
+Consistent hashing is an algorithm designed to distribute data across a cluster in a way that minimizes re-distribution when nodes are added or removed. It is particularly useful in distributed systems, such as distributed caches, distributed storage systems, and load balancing.
+
+- [A Guide to Consistent Hashing](https://www.toptal.com/big-data/consistent-hashing)
 
 ### Frugal Streaming
 Frugal Streaming uses only one unit of memory per group to compute a quantile for each group
