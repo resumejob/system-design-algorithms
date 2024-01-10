@@ -108,4 +108,5 @@ Trie is an efficient information reTrieval data structure. Using Trie, search co
 - [Spell Checkers](https://stackoverflow.com/questions/21366631/how-do-i-use-a-trie-for-spell-checking)
 - [prefix matching words (IP Addresses, Phone Numbers)](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
 - [Auto-complete feature using Trie](https://www.geeksforgeeks.org/auto-complete-feature-using-trie/)
+- [Insert Operation in a Trie](https://www.scaler.com/topics/data-structures/trie-data-structure/#insert-operation-in-a-trie-)
 
