@@ -41,7 +41,7 @@ The algorithm and its resources should:
 ### Bloom filter
 A Bloom filter is a data structure designed to tell you, rapidly and memory-efficiently, whether an element is present in a set.
 
-- [Build a Web Crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
+- [Supercharging the Git Commit Graph IV: Bloom Filters](https://devblogs.microsoft.com/devops/super-charging-the-git-commit-graph-iv-bloom-filters/)
 
 ### Consistent hashing
 Consistent hashing is an algorithm designed to distribute data across a cluster in a way that minimizes re-distribution when nodes are added or removed. It is particularly useful in distributed systems, such as distributed caches, distributed storage systems, and load balancing.
