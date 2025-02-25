@@ -5,7 +5,7 @@ Algorithm you should know for preparing system design interview. For example, Le
 #### Sponsor
 <h4>
   <a href="https://osjobs.net/co/">
-    海外兔小班教学帮助你高效准备面试，学员大厂率超过 50%，入职不成功不收费。
+    海外兔小班教学帮助你高效准备面试，学员大厂率超过 65%，入职不成功不收费。
   </a>
 </h4>
 
