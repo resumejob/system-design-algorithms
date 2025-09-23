@@ -25,6 +25,9 @@ The algorithm and its resources should:
 - Bloom filter ✅
 - Consistent hashing ✅
 - Geohash / S2 Geometry ✅
+- Two-Phase Commit (2PC) ✅
+- Exponential Backoff ✅
+- SSTable ✅
 - Leaky bucket / Token bucket ✅
 - Inverted index ✅
 - Distributed Consensus Algorithms (e.g., Paxos, Raft) ✅
@@ -52,6 +55,22 @@ Consistent hashing is an algorithm designed to distribute data across a cluster 
 Geohash can used by 1) dating apps to find romantic matches within a particular cell, and to create chat apps.2) Find nearby locations, and identify places of interest, restaurants, shops and accommodation establishments in an area. 3) Geohashers go on global expeditions to meet people and explore new places.
 
 - [Location-based search results with DynamoDB and Geohash](https://read.acloud.guru/location-based-search-results-with-dynamodb-and-geohash-267727e5d54f)
+
+### Two-Phase Commit (2PC)
+Two-Phase Commit is a distributed algorithm that ensures all participating nodes in a distributed transaction either all commit or all abort the transaction, maintaining ACID properties across distributed systems.
+
+- [Difference Between Two-Phase Commit and Saga Pattern](https://www.baeldung.com/cs/two-phase-commit-vs-saga-pattern)
+
+### Exponential Backoff
+Exponential backoff is a retry strategy that increases the delay between retry attempts exponentially, helping to handle transient failures and prevent system overload in distributed systems.
+
+- [Retry with backoff pattern](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html)
+
+### SSTable
+SSTable (Sorted String Table) is an immutable data structure that stores key-value pairs in sorted order, used in modern databases like Cassandra and BigTable to achieve high write throughput and efficient read operations.
+
+- [SSTable Definition](https://www.scylladb.com/glossary/sstable/)
+- [SSTables : The secret sauce that behind Cassandra’s write performance..](https://medium.com/@vinciabhinav7/cassandra-internals-sstables-the-secret-sauce-that-makes-cassandra-super-fast-3d5badac8eaf)
 
 ### Leaky bucket / Token bucket
 A mechanism to control the amount and the rate of the traffic sent to the network
@@ -118,6 +137,3 @@ Operational transformation (OT) is a technology for supporting a range of collab
 Ray casting is the most basic of many computer graphics rendering algorithms that use the geometric algorithm of ray tracing. Given a point with longitude and latitude, return the Country of the point.
 
 - [Ray Casting Algorithm](http://philliplemons.com/posts/ray-casting-algorithm)
-
-
-
